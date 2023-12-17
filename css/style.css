@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  body {
+    background: rgb(17,50,87);
+    background: radial-gradient(circle, rgba(17,50,87,0.9747548677674195) 54%, rgba(10,2,2,1) 100%);
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  .btn{
+    padding:.5rem 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    width: 1340px;
+    max-width: 100%;
+    margin: auto;
+  }
+ .primary-header{
+    color:aliceblue; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     flex-wrap: wrap; 
+  }
+ 
+  header .list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  header .list li{
+    padding:1.5rem;
+  
+  } 
+  header .list li a{
+     color: white;
+    }
+  .hero-section{
+    height: 90vh;
+    /* background-color: aqua; */
+  }
+  .hero-section .title{
+     background-color: rgb(155, 166, 199);
+    font-size:2rem;
+    margin: auto;
+    line-height:1.5;
+    text-transform: uppercase;
+    color:#580406;
+    letter-spacing:10px;
+    max-width: 70%;
+    text-align: center;
+   
+    
+  }
+  .hero-section .game-page{
+    margin-top: 10rem;
+    display: flex;
+    
+   text-align: center;
+    /* background-color: red; */
+  }
+  .hero-section .game-page .target-point{
+    flex:35%;
+    /* border: 2px solid black; */
+   flex-wrap: wrap;
+  }
+  .hero-section .game-page .target-point .target{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .hero-section .game-page .target-point .hidden-box{
+   
+    max-width: 50%; 
+   font-size: 5rem;
+   padding: 1rem 3rem; 
+    margin: auto;
+   background-color: rgb(155, 166, 199);
+  }
+  .hero-section .game-page .target-point .description{
+    margin-top: 2rem;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 18px;
+  
+  }
+  .hero-section .game-page .target-point input[type=number]{
+    background: none;
+    border: 5px solid   rgb(155, 166, 199);
+    color: white;
+    font-size: 5rem;
+    padding: 2.5rem;
+    width:15rem;
+    text-align: center;
+    margin:auto;
+    display: block;
+
+  }
+  .hero-section .game-page .target-point .btn{
+    margin-top: 3rem;
+  }
+  .hero-section .game-page .target-point .score-board{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: start;
+    color: white;
+  } 
+  .hero-section .game-page .target-point .message{
+     font-size: 1.5rem;
+     color: aliceblue;
+     margin-top: 2rem;
+  }

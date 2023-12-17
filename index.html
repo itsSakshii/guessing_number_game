@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>mini game</title>
+</head>
+<body>
+    <header class="primary-header container">
+        <div class="logo">
+            <h1>mInIGaMe</h1>
+        </div>
+        <ul class="list">
+            <li><a href=""> home</a></li>
+            <li><a href="">levels</a></li>
+            <li><a href="">instructions</a></li>
+        </ul>
+        <button class="btn again">AGAIN!</button>
+    </header>
+    <main class="hero-section container">
+         <div class="title">
+             <h1>guess my number!</h1>
+         </div>
+     <section class="game-page">
+          <div class="target-point">
+             <h4 class="target">target - between 1-20</h4> 
+              <p class="hidden-box">?</p>
+             <p class="description">hidden number</p>
+          </div>
+          <div class="target-point">
+            
+            <input type="number" name="number" class="guess">
+            <button class="btn check">check!</button>
+          </div>
+         <div class="target-point">
+             <h3 class="score-board">💯Score :<span class="score"> 0 </span></h3>
+             <h3 class="score-board">🏆HighScore :<span class="highscore"> 0 </span></h3>
+             <p class="message">start guessing...</p>
+         </div>
+     </section>    
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
